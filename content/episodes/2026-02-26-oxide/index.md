@@ -294,7 +294,7 @@ This is an extended version of an interview posted on Software Engineering Radio
 
 [00:36:47] **Bryan:** The hypervisor Propolis is all in rust. Uh, and then of course the control plane, that distributed system on that is all in rust. So that was a very important thing that we very much did not need to build ourselves. We were able to really leverage, uh, a terrific community. Um. We were able to use, uh, and we've done this at Joyent as well, but at Oxide, we've used Illumos as a hostos component, which, uh, our variant is called Helios.
 
-[00:37:11] **Bryan:** Um, we've used, uh, bhyve um, as a, as as that kind of internal hypervisor component. we've made use of a bunch of different open source components to build this thing, um, which has been really, really important for us. Uh, and open source components that didn't exist even like five years prior.
+[00:37:11] **Bryan:** Um, we've used, uh, bhyve um, as a, as as that kind of in kernel hypervisor component. we've made use of a bunch of different open source components to build this thing, um, which has been really, really important for us. Uh, and open source components that didn't exist even like five years prior.
 
 [00:37:28] **Bryan:** That's part of why we felt that 2019 was the right time to start the company. And so we started Oxide.
 
